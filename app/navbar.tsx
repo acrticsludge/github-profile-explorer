@@ -9,15 +9,8 @@ export default function Navbar() {
     router.push("/");
   }
   return (
-    <nav className="w-full bg-white backdrop-blur border-gray-200">
+    <nav className="w-full bg-amber-100 backdrop-blur border-gray-600">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Image
-          src="/logo.png"
-          alt="Profile Explorer Logo"
-          width={40}
-          height={40}
-          priority
-        />
         <h1 className="text-[1.1rem] font-medium text-gray-700 tracking-tight">
           Profile Explorer
         </h1>
